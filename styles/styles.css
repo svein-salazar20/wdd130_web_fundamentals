@@ -1,9 +1,5 @@
 
-body {
-    text-align: center;
-  }
   nav {
-    background-color: steelblue;
     padding: 10px;
   }  
   a {
@@ -19,10 +15,6 @@ body {
   }
   p {
     padding: 10px;
-  }
-  footer {
-    background-color: steelblue;
-    color: white;
   }
   .main-para {
     font-size: 1.5em;
@@ -40,4 +32,33 @@ body {
   }
   a {
     font-size: 1.5em;
+  }
+  h1 {
+    text-align: center;
+  }
+  nav {
+    text-align: center;
+  }
+  img {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+  }
+  main p {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+nav, footer {
+    background-color: steelblue;
+    color: white;
+    text-align: center;
+  } 
+  footer p{
+    font-size: 20px;
+    margin: 20px auto 
+  }
+  a:hover {
+    background-color: white;
+    color: steelblue;
   }
