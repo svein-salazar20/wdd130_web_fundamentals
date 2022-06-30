@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
+    <link rel="stylesheet" href="styles/style.css" />
 </head>
 <body>
+    <div id="content">
     <header>
         <a id="logo-link" href="index.html">
           <img class= "logo" src="images/L&S.png" alt="L&S logo">
@@ -23,35 +25,42 @@
                 <img id="Us" src="images/banner1.jpg" alt="Libni & Svein at temple">
             </div>    
             <section id="banner-msg">
-                <h1 class="home-title">Better Together</h1>
+                <h2 class="home-title">Better Together</h2>
             </section>
         </div>
         <div id="msg">
             <h1>Libni and Svein</h1>
             <p>We want you to be part of this special moment that we have been waiting for a long time</p>
-            <h3>click here to know</h3>
-            <h3>more about...</h3>
+            <h3>click here to know more about...</h3>
         </div>
-        <section id="links">
-            <section id="gallery-link">
+        <div id="links-grid">
+            <section id="gallery-link-sec">
                 <a class="gallery-link" href="gallery.html">
-                   <img class="gallery-img" src="images/us.jpeg" alt="Us">
+                   <img class="gallery-img" src="images/us.png" alt="Us">
                    <h2>Our story</h2>
                 </a>
             </section>
-            <section id="invitation-link">
+            <section id="invitation-link-sec">
                 <a class="invitation-link" href="invitation.html">
-                   <img class="invitation-img" src="images/invitation.jpeg" alt="Invitation">
+                   <img class="invitation-img" src="images/invitation.png" alt="Invitation">
                    <h2>Invitation</h2>
                 </a>
-        </section>
+            </section>    
+        </div> 
     </main>
     <footer>
-        <h3>L&S &copy; BETTER TOGETHER - 2022</h3>
-        <a id="logo-link-footer" href="index.html">
-            <img class= "logo" src="images/L&S.png" alt="L&S logo">
-        <h6><a href="site-plan.html">Site Plan</a></h6>
-        <div class="social">
+      <div id="footer-grid">
+        <div id="footer-inf">
+          <h3>L&S &copy; BETTER TOGETHER - 2022</h3>
+          <a id="logo-link-footer" href="index.html">
+              <img class= "logo" src="images/L&S.png" alt="L&S logo">
+          </a>
+          <h6><a href="site-plan.html">Site Plan</a></h6>
+        </div>
+        <section class="contact-libni">
+            <h2>Libni</h2>
+        </section>
+        <div class="social-libni">
             <a href="https://facebook.com" target="_blank">
                 <img src="images/facebook.png" alt="fb icon">
             </a>
@@ -61,6 +70,11 @@
             <a href="https://instagram.com" target="_blank">
                 <img src="images/instagram.png" alt="instagram icon">
             </a>
+        </div>
+        <section class="contact-svein">
+            <h2>Svein</h2>
+        </section>
+        <div class="social-svein">
             <a href="https://facebook.com" target="_blank">
                 <img src="images/facebook.png" alt="fb icon">
             </a>
@@ -70,6 +84,9 @@
             <a href="https://instagram.com" target="_blank">
                 <img src="images/instagram.png" alt="instagram icon">
             </a>
+        </div>
+      </div> 
     </footer>
+    </div>
 </body>
 </html>
