@@ -93,7 +93,7 @@ nav a:hover {
     width: 80px;
     grid-column: 1/2;
     border-radius: 5%;
-    padding: auto;
+    padding: 10px;
 }
 
 .logo:hover {
