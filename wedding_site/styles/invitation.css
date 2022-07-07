@@ -44,7 +44,6 @@ p{
     margin-right: auto;
 }
 
-
 body {
     max-width: 1950px;
     margin: 0;
@@ -107,31 +106,134 @@ nav a:hover {
     align-self: center;
 }
 
-#banner {
+#intro-msg {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin-top: auto;
-}
-
-#banner-image{
-    grid-column: 1/4;
-    grid-row: 1/3;
-    z-index: -1;
-    width: 100%;
-}
-
-#banner-msg{
-    grid-column: 2/3;
-    grid-row: 2/3;
-    text-align: center;
-    font-size: larger;
-    background-color: var(--accent1-color);
-}
-
-#msg {
-    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     margin-top: 100px;
     margin-bottom: 100px;
+}
+
+#intro-img {
+    grid-column: 2/4;
+    align-content: center; 
+    border: 5px solid var(--accent3-color);
+    border-radius: 4px;
+    padding: 5px;
+}
+
+#wedding-details {
+    grid-column: 4/8;
+    align-content: center;
+    border: 5px solid var(--accent3-color);
+    border-radius: 4px;
+    padding: 5px;
+}
+
+#wedding-details h1{
+    font-size:3em;
+}
+
+#wedding-details h2{
+    font-size: 2.5em;
+}
+
+#wedding-details h3{
+    font-size: 2em;
+}
+
+#form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-bottom: 100px;
+}
+
+#feedback {
+    grid-column: 2/4;
+    grid-row: 1/3;
+    padding: 5px;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    width: 100%;
+    height: auto;
+}
+
+#marriage {
+    grid-column: 5/8;
+    grid-row: 1/3;
+    width: 100%;
+    height: auto;
+    border: 5px solid var(--accent1-color);
+    padding: 5px;
+    align-content: center;
+}
+
+form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 400px;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input,
+
+textarea {
+  /* To make sure that all text fields have the same font settings
+     By default, textareas have a monospace font */
+  font: 1em sans-serif;
+
+  /* Uniform text field size */
+  width: 300px;
+  box-sizing: border-box;
+
+  /* Match form field borders */
+  border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+  /* Additional highlight for focused elements */
+  border-color: #000;
+}
+
+textarea {
+  /* Align multiline text fields with their labels */
+  vertical-align: top;
+
+  /* Provide space to type some text */
+  height: 5em;
+}
+
+.button {
+  /* Align buttons with the text fields */
+  padding-left: 90px; /* same size as the label elements */
+}
+
+button {
+  /* This extra margin represent roughly the same space as the space
+     between the labels and their text fields */
+  margin-left: .5em;
+}
+
+.moveDown {
+  margin-top: 3em;
 }
 
 #links-grid {
@@ -141,54 +243,45 @@ nav a:hover {
     margin-bottom: 100px;
 }
 
-.gallery-img {
+.list-img {
     width: 120px;
     height: 120px; 
 }
 
-#gallery-link-sec {
+#list-link {
     grid-column: 2/5;
     align-items: center;
     background-color: var(--accent3-color);
-    border-radius: 100%;
 }
 
-.gallery-img:hover {
+.list-img:hover {
     transform: scale(1.2);
     opacity: .9;
 }
 
-.gallery-link h2:hover {
-    transform: scale(1.5);
+.gifts-list {
+    align-self: center;
+    text-decoration: none;
 }
 
-.gallery-link h2 {
-    color: var(--paragraph-background-color);
-}
-
-.invitation-img {
+.ideas-img {
     width: 120px;
     height: 120px;
 }
 
-#invitation-link-sec {
+#idea-link {
     grid-column: 7/10;
     align-items: center;
     background-color: var(--accent3-color);
-    border-radius: 100%;
 }
 
-.invitation-img:hover {
+.ideas-img:hover {
     transform: scale(1.2);
     opacity: .9;
 }
 
-.invitation-link h2:hover {
-    transform: scale(1.5);
-}
-
-.invitation-link h2{
-    color: var(--paragraph-color-on-white);
+.ideas-link {
+    align-self: center;
     text-decoration: none;
 }
 
@@ -224,4 +317,3 @@ footer{
     grid-row: 2/3;
     align-items: center;
 }
-
