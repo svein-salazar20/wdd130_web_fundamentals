@@ -167,16 +167,17 @@ nav a:hover {
     border: 5px solid var(--accent1-color);
     padding: 5px;
     align-content: center;
+    border-radius: 5px;
 }
 
 form {
     /* Center the form on the page */
     margin: 0 auto;
-    width: 400px;
+    width: 500px;
     /* Form outline */
     padding: 1em;
-    border: 1px solid #CCC;
-    border-radius: 1em;
+    border: 5px solid var(--accent1-color);
+    border-radius: 5px;
 }
 
 ul {
@@ -189,7 +190,6 @@ label {
     /* Uniform size & alignment */
     display: inline-block;
     width: 90px;
-    text-align: right;
 }
 
 input,
@@ -200,17 +200,17 @@ textarea {
   font: 1em sans-serif;
 
   /* Uniform text field size */
-  width: 300px;
+  width: 500px;
   box-sizing: border-box;
 
   /* Match form field borders */
-  border: 1px solid #999;
+  border: 5px solid var(--accent1-color);
 }
 
 input:focus,
 textarea:focus {
   /* Additional highlight for focused elements */
-  border-color: #000;
+  border-color: var(--headline-color-on-white);
 }
 
 textarea {
@@ -218,18 +218,19 @@ textarea {
   vertical-align: top;
 
   /* Provide space to type some text */
-  height: 5em;
+  height: 8em;
 }
 
 .button {
   /* Align buttons with the text fields */
-  padding-left: 90px; /* same size as the label elements */
+  padding: 15px; /* same size as the label elements */
 }
 
 button {
   /* This extra margin represent roughly the same space as the space
      between the labels and their text fields */
   margin-left: .5em;
+  align-items: center;
 }
 
 .moveDown {
@@ -252,6 +253,7 @@ button {
     grid-column: 2/5;
     align-items: center;
     background-color: var(--accent3-color);
+    border-radius: 25px;
 }
 
 .list-img:hover {
@@ -273,6 +275,7 @@ button {
     grid-column: 7/10;
     align-items: center;
     background-color: var(--accent3-color);
+    border-radius: 25px;
 }
 
 .ideas-img:hover {
@@ -316,4 +319,16 @@ footer{
     grid-column: 3/4;
     grid-row: 2/3;
     align-items: center;
+}
+
+#demo {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 0px;
+}
+
+#coundown {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: var(--nav-hover-background-color);
 }
