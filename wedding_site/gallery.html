@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
+    <title>Gallery</title>
+    <link rel="stylesheet" href="styles/gallery.css" />
 </head>
 <body>
     <header>
@@ -24,20 +25,20 @@
             <!-- Full-width images with number and caption text -->
             <div class="mySlides fade">
                <div class="numbertext">1 / 3</div>
-               <img src="images/3g.jpg" style="width:100%">
-               <div class="text">Our story</div>
+               <img src="images/slide1.jpg" style="width:100%">
+               <div class="text">Things are getting better</div>
             </div>
   
             <div class="mySlides fade">
                <div class="numbertext">2 / 3</div>
-               <img src="images/hero.jpg" style="width:100%">
-               <div class="text">is full </div>
+               <img src="images/Slide2.jpg" style="width:100%">
+               <div class="text">since </div>
             </div>
   
             <div class="mySlides fade">
                <div class="numbertext">3 / 3</div>
-               <img src="images/banner1.jpg" style="width:100%">
-               <div class="text">of pure love</div>
+               <img src="images/slide3.jpg" style="width:100%">
+               <div class="text">we are together</div>
             </div>
   
             <!-- Next and previous buttons -->
@@ -53,61 +54,126 @@
            <span class="dot" onclick="currentSlide(3)"></span>
         </div>
 
-        <section id="stories-grid">
-            <div id="story-1">
-            <img class="stories" src="images/2g.jpg" alt="Hug">
-            <section class="msg">
-                <h2>title of the story</h2>
-                <p>Here we will tell more about us, we have not determine the story yet. </p>
-            </section>  
-            </div>
-            <div id="story-2">
-            <img class="stories" src="images/6g.jpg" alt="Temple">
-            <section class="msg">
-                <h2>title of the story</h2>
-                <p>Here we will tell more about us, we have not determine the story yet. </p>
-            </section>  
-            </div>
-            <div id="story-3">
-            <img class="stories" src="images/4g.jpg" alt="Ranch">
-            <section class="msg">
-                <h2>title of the story</h2>
-                <p>Here we will tell more about us, we have not determine the story yet. </p>
-            </section>  
-            </div>
-            <div id="story-4">
-                <img class="stories" src="images/5g.jpg" alt="Sunday">
-                <section class="msg">
-                    <h2>title of the story</h2>
-                    <p>Here we will tell more about us, we have not determine the story yet. </p>
-                </section>  
+        <div id="stories-grid">
+
+            <div div id="story1">
+                <div class="container">
+                   <img class="img" src="images/2g.jpg" alt="Hug">
+                   <div class="overlay">
+                      <div class="text-block">
+                          <h2>title of the story</h2>
+                          <p>Here we will tell more about us, we have not determine the story yet. </p>
+                      </div>
+                   </div>  
                 </div>
-        </section>
+            </div>
+
+
+            <div div id="story2">
+                <div class="container">
+                   <img class="img" src="images/6g.jpg" alt="Temple">
+                   <div class="overlay">
+                      <div class="text-block">
+                          <h2>title of the story</h2>
+                          <p>Here we will tell more about us, we have not determine the story yet. </p>
+                      </div>
+                   </div>  
+                </div>
+            </div>
+
+
+            <div div id="story3">
+                <div class="container">
+                   <img class="img" src="images/4g.jpg" alt="Ranch">
+                   <div class="overlay">
+                      <div class="text-block">
+                          <h2>title of the story</h2>
+                          <p>Here we will tell more about us, we have not determine the story yet. </p>
+                      </div>
+                   </div>  
+                </div>
+            </div>
+              
+            <div div id="story1">
+                <div class="container">
+                   <img class="img" src="images/5g.jpg" alt="Sunday">
+                   <div class="overlay">
+                      <div class="text-block">
+                          <h2>title of the story</h2>
+                          <p>Here we will tell more about us, we have not determine the story yet. </p>
+                      </div>
+                   </div>  
+                </div>
+            </div>
+            
+        </div>
     </main>
     <footer>
-        <h3>L&S &copy; BETTER TOGETHER - 2022</h3>
-        <a id="logo-link-footer" href="index.html">
-            <img class= "logo" src="images/L&S.png" alt="L&S logo">
-        <h6><a href="site-plan.html">Site Plan</a></h6>
-        <div class="social">
-            <a href="https://facebook.com" target="_blank">
-                <img src="images/facebook.png" alt="fb icon">
+        <div id="footer-grid">
+          <div id="footer-inf">
+            <h3>L&S &copy; BETTER TOGETHER - 2022</h3>
+            <a id="logo-link-footer" href="index.html">
+                <img class= "logo" src="images/L&S.png" alt="L&S logo">
             </a>
-            <a href="https://twitter.com" target="_blank">
-                <img src="images/twitter.png" alt="twitter icon">
-            </a>
-            <a href="https://instagram.com" target="_blank">
-                <img src="images/instagram.png" alt="instagram icon">
-            </a>
-            <a href="https://facebook.com" target="_blank">
-                <img src="images/facebook.png" alt="fb icon">
-            </a>
-            <a href="https://twitter.com" target="_blank">
-                <img src="images/twitter.png" alt="twitter icon">
-            </a>
-            <a href="https://instagram.com" target="_blank">
-                <img src="images/instagram.png" alt="instagram icon">
-            </a>
-    </footer>
+            <h6><a href="site-plan.html">Site Plan</a></h6>
+          </div>
+          <section class="contact-libni">
+              <h2>Libni</h2>
+          </section>
+          <div class="social-libni">
+              <a href="https://facebook.com" target="_blank">
+                  <img src="images/facebook.png" alt="fb icon">
+              </a>
+              <a href="https://twitter.com" target="_blank">
+                  <img src="images/twitter.png" alt="twitter icon">
+              </a>
+              <a href="https://instagram.com" target="_blank">
+                  <img src="images/instagram.png" alt="instagram icon">
+              </a>
+          </div>
+          <section class="contact-svein">
+              <h2>Svein</h2>
+          </section>
+          <div class="social-svein">
+              <a href="https://facebook.com" target="_blank">
+                  <img src="images/facebook.png" alt="fb icon">
+              </a>
+              <a href="https://twitter.com" target="_blank">
+                  <img src="images/twitter.png" alt="twitter icon">
+              </a>
+              <a href="https://instagram.com" target="_blank">
+                  <img src="images/instagram.png" alt="instagram icon">
+              </a>
+          </div>
+        </div> 
+      </footer>
+      <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
 </body>
 </html>
