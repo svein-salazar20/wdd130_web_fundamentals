@@ -120,6 +120,11 @@ nav a:hover {
     width: 100%;
 }
 
+#banner-image img{
+    width: 100%;
+    height: auto;
+}
+
 #banner-msg{
     grid-column: 2/3;
     grid-row: 2/3;
@@ -219,9 +224,28 @@ footer{
     align-items: center;
 }
 
+.social-libni a{
+    text-decoration: none;
+}
+
 .social-svein {
     grid-column: 3/4;
     grid-row: 2/3;
     align-items: center;
 }
 
+.social-svein a{
+    text-decoration: none;
+}
+
+#footer-inf h6 a{
+    text-decoration: none;
+}
+
+#gallery-link-sec h2 a {
+    text-decoration: none;
+}
+
+#invitation-link-sec h2 a {
+    text-decoration: none;
+}
